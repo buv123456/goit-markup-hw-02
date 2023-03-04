@@ -33,7 +33,7 @@ body {
 }
 
 .btn {
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   cursor: pointer;
 }
@@ -108,8 +108,8 @@ body {
   color: var(--color-text);
 }
 
-.address-list-item>.link:hover,
-.address-list-item>.link:focus {
+.address-item:hover,
+.address-item:focus {
   color: var(--color-active);
 }
 
