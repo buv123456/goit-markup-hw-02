@@ -187,7 +187,9 @@ body {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+  background-color: var(--color-title-contrast);
+}
 
 .team-item-title {}
 
