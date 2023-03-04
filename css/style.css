@@ -1,0 +1,230 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: #2e2f42;
+}
+
+/* ----------------HEADER------------------ */
+.header {
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: #2e2f42;
+}
+.list {
+  list-style: none;
+}
+.nav {
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-part {
+  color: #2e2f42;
+}
+
+.nav-list {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list-item {
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: #404bbf;
+}
+
+.address {
+}
+.address-list {
+}
+.address-list-item > .link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.email:hover,
+.email:focus {
+  color: #404bbf;
+}
+/* ----------------SLIDER------------------ */
+.slider {
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background-color: #2e2f42;
+}
+.slider-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.slider-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+.slider-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+/* ----------------OUR ADVANTAGES------------------ */
+.advantage {
+}
+.advantage-title {
+  display: none;
+}
+.advantage-list {
+}
+.advantage-item {
+}
+.advantage-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.advantage-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ----------------WE DOING------------------ */
+.doing {
+}
+
+.doing-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.doing-list {
+}
+
+.doing-item {
+}
+/* ----------------OUR TEAM------------------ */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-list {
+}
+.team-item {
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ----------------FOOTER------------------ */
+.footer {
+  background-color: #2e2f42;
+}
+.footer .logo-part {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #d9d9d9;
+}
+
+/* ----------------PAGE PORTFOLIO------------------ */
+/* -----------portfolio nav------------------ */
+.portfolio {
+}
+.portfolio-title {
+  display: none;
+}
+.portfolio-nav {
+}
+.portfolio-nav-item {
+}
+.portfolio-nav-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.portfolio-nav-btn:is(:hover, :focus, :active) {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-figure {
+}
+.portfolio-figcaption {
+}
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
