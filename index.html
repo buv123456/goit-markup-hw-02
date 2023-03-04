@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=500px, initial-scale=1.0" />
   <title>WebStudio's website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./css/styles.css" />
@@ -17,7 +19,7 @@
     <nav class="nav">
       <a class="logo link" href="./index.html">Web<span class="logo-part">Studio</span></a>
       <ul class="nav-list list">
-        <li class="nav-list-item"><a class="link" href="">Studio</a></li>
+        <li class="nav-list-item"><a class="link" href="./index.html">Studio</a></li>
         <li class="nav-list-item">
           <a class="link" href="./portfolio.html">Portfolio</a>
         </li>
@@ -28,10 +30,10 @@
     <address class="address">
       <ul class="address-list list">
         <li class="address-list-item">
-          <a class="link email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="address-list-item">
-          <a class="link tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <a class="tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </address>
@@ -43,7 +45,8 @@
       <button class="slider-btn btn" type="button">Order Service</button>
     </section>
     <section class="advantage">
-      <h2 hidden>Our advantages</h2>
+      <!-- Our advantages -->
+      <h2 hidden class="advantage-title">Our advantages</h2>
       <ul class="advantage-list list">
         <li class="advantage-item">
           <h3 class="advantage-item-title">Strategy</h3>
@@ -93,7 +96,7 @@
         <li class="team-item">
           <img src="./images/mark-guerrero.jpg" alt="guy with the beard" width="264" />
           <h3 class="team-item-title item-title">Mark Guerrero</h3>
-          <p class="team-item text">Product Designer</p>
+          <p class="team-item-text text">Product Designer</p>
         </li>
         <li class="team-item">
           <img src="./images/tom-ford.jpg" alt="Dude laughs" width="264" />
