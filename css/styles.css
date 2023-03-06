@@ -41,7 +41,6 @@ body {
 .title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
@@ -51,7 +50,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-title);
 }
@@ -59,7 +57,6 @@ body {
 .text {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
@@ -74,8 +71,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-logo);
@@ -117,17 +112,12 @@ body {
 
 /* ----------------SLIDER------------------ */
 .slider {
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background-color: var(--color-title);
 }
 
 .slider-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-title-contrast);
 }
@@ -136,8 +126,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   background-color: var(--bg-btn-hero);
   color: var(--color-title-contrast);
@@ -224,17 +212,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: var(--bg-btn-pf);
-  border: 1px solid var(--color-text-footer);
-  border-radius: 4px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .portfolio-nav-btn:is(:hover, :focus, :active) {
